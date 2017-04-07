@@ -5,6 +5,20 @@ Go is a modern programming language developed at Google. It is increasingly popu
 
 [Installing Go 1.6 on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04)
 
+Additionally add Go path into bashrc file, so you can run go files anywhere on your computer.
+
+```sh
+# Edit you bash file
+sudo vim .bashrc
+
+# Add go path and save
+export GOPATH=$HOME/work
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# Then update changes
+source .bashrc
+```
+
 ### Building a simple Hello World application.
 
 Package fmt implements formatted I/O with functions analogous to C's printf and scanf. The format 'verbs' are derived from C's but are simpler.
