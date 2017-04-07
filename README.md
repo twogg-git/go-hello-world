@@ -3,7 +3,7 @@
 
 Go is a modern programming language developed at Google. It is increasingly popular for many applications and at many companies, and offers a robust set of libraries. 
 
-(Installing Go 1.6 on Ubuntu)[https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04]
+[Installing Go 1.6 on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-go-1-6-on-ubuntu-16-04)
 
 ### Building a simple Hello World application.
 
